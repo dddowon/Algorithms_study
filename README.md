@@ -10,7 +10,7 @@
 ### 2. 자료구조 1
 
 - [스택](https://clever-tellurium-50a.notion.site/d753cea84d724dadb4a5ac03c146a9b9)
-- 큐
+- [큐](https://clever-tellurium-50a.notion.site/eb868f8e75bb49a0a32e7bd86feb753f)
 - 덱
 - 문자열
 
