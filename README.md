@@ -12,7 +12,7 @@
 
 - [스택](https://clever-tellurium-50a.notion.site/d753cea84d724dadb4a5ac03c146a9b9)
 - [큐](https://clever-tellurium-50a.notion.site/eb868f8e75bb49a0a32e7bd86feb753f)
-- 덱
+- [덱](https://clever-tellurium-50a.notion.site/76ff0c91b50b4f17b82e4ba519499085)
 - 문자열
 
 ### 3. 다이나믹 프로그래밍1
