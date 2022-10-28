@@ -1,5 +1,6 @@
 # Algorithms_study
-알고리즘 공부 기록입니다.
+알고리즘 공부 기록입니다. 
+구현은 Swift로 진행합니다!
 
 ### [1. 알고리즘과 입/출력](https://clever-tellurium-50a.notion.site/74c6b932440849c088e484cc190ebf98)
 
