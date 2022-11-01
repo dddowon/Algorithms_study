@@ -3,7 +3,7 @@
 * ### [단계별로 풀어보기](https://www.acmicpc.net/step)
 
   * [1단계](https://clever-tellurium-50a.notion.site/1-2274860984ca4c199ec9f28f3943d33d) 
-  * 2단계
+  * [2단계](https://clever-tellurium-50a.notion.site/2-1561582d8ec64b918b8ec25df9474271)
   * 3단계
   * 4단계
   * 5단계
