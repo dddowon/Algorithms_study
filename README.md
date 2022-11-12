@@ -16,7 +16,7 @@
 - [문자열1](https://clever-tellurium-50a.notion.site/1-81d6b23cc48c447a97e6de57dafedd97) 
 - [문자열2](https://clever-tellurium-50a.notion.site/2-ae104bdc20d7476885f2d2529b69776c)
 
-### 3. 다이나믹 프로그래밍1
+### [3. 다이나믹 프로그래밍1](https://clever-tellurium-50a.notion.site/1-5a4b0e750ffe4370b669395ff7004a72)
 
 ### 4. 수학 1
 
