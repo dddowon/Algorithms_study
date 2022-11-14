@@ -25,7 +25,7 @@
 - 소수
 - 소인수분해
 - 진법 변환
-- 팩토리얼
+- [팩토리얼](https://clever-tellurium-50a.notion.site/73a2d148108447688a034af6302930ba)
 
 ### 5. 정렬
 
