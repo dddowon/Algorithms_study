@@ -19,7 +19,7 @@ if A1 > B1 {
 } else {
     print("<")
 }
- 
+
 
 //9498
 let input1 = Int(readLine()!)!
@@ -60,75 +60,44 @@ if input3 > 0 && input4 > 0 {
     print("4")
 }
 
-//2884
+2884
 let input5 = readLine()!.split(separator: " ").map { Int(String($0))! }
-var H = input5[0]
-var M = input5[1]
-
-if M >= 45 {
-    M -= 45
-    print("\(H) \(M)")
-} else if M < 45 {
-    if H == 0 {
-        H = 23
-    } else {
-        H -= 1
-    }
-    M += 15
-    print("\(H) \(M)")
+var time1 = input5[0] * 60 + input5[1] - 45
+if time1 < 0 {
+    time1 += 1440
 }
+print(time1 / 60, time1 % 60)
 
 //2525
 let input6 = readLine()!.split(separator: " ").map { Int(String($0))! }
 let input7 = Int(readLine()!)!
-var A = input6[0]
-var B = input6[1]
-var C = input7
-var BC = B + C
-var count: Int {
-    switch BC {
-    case 60...119:
-        return 1
-    case 120...150:
-        return 2
-    default:
-        return 0
+var time2 = input6[0] * 60 + input6[1] + input7
+if time2 >= 1439 {
+    time2 -= 1440
+}
+print(time2 / 60, time2 % 60)
+
+//2480
+let input8 = readLine()!.split(separator: " ").map { Int(String($0))! }
+let a = input8[0]
+let b = input8[1]
+let c = input8[2]
+
+let largeNum = Int(input8.max()!)
+
+if a == b {
+    if b == c {
+        print(b * 1000 + 10000)
+    } else {
+        print(b * 100 + 1000)
+    }
+} else {
+    if b == c {
+        print(b * 100 + 1000)
+    } else if a == c {
+        print(a * 100 + 1000)
+    } else {
+        print(largeNum * 100)
     }
 }
 
-if BC <= 60 {
-    if BC == 60 {
-        A += 1
-        if A == 24 {
-            A = 0
-        }
-        B = 0
-        print("\(A) \(B)")
-    } else {
-        print("\(A) \(BC)")
-    }
-} else if count == 1 {
-    A += 1
-    if A == 24 {
-        A = 0
-    }
-    B -= 60 - C
-    print("\(A) \(B)")
-
-} else if count == 2 {
-    if BC == 120 {
-        A += 2
-        if A == 24 {
-            A = 0
-        }
-        B = 0
-        print("\(A) \(B)")
-    } else {
-        A += 2
-        if A == 24 {
-            A = 0
-        }
-        B -= 120 - C
-        print("\(A) \(B)")
-    }
-}
