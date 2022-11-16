@@ -20,7 +20,7 @@
 
 ### 4. 수학 1
 
-- 나머지 연산
+- [나머지 연산](https://clever-tellurium-50a.notion.site/7b6c415e4f20402baf627822beabc019)
 - 최대공약수와 최소공배수
 - 소수
 - 소인수분해
