@@ -22,7 +22,7 @@
 
 - [나머지 연산](https://clever-tellurium-50a.notion.site/7b6c415e4f20402baf627822beabc019)
 - [최대공약수와 최소공배수](https://clever-tellurium-50a.notion.site/c296a19fdcf647329b6a374ff8b53980)
-- 소수
+- [소수](https://clever-tellurium-50a.notion.site/4243b769b8094b8da954af4b543a2dc8)
 - 소인수분해
 - 진법 변환
 - [팩토리얼](https://clever-tellurium-50a.notion.site/73a2d148108447688a034af6302930ba)
