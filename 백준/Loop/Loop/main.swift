@@ -49,3 +49,51 @@ for _ in 1...input8 {
     let input9 = readLine()!.split(separator: " ").map { Int(String($0))! }
     print("\(input9[0] + input9[1])")
 }
+
+//11021
+let input9 = Int(readLine()!)!
+var arr: [Int] = []
+for _ in 1...input9 {
+    let input10 = readLine()!.split(separator: " ").map{ Int(String($0))! }
+    let num1 = input10[0] + input10[1]
+    arr.append(num1)
+}
+
+for i in 0..<arr.count {
+    print("Case #\(i+1): \(arr[i])")
+}
+
+//11022
+let input11 = Int(readLine()!)!
+var arr: [Int] = []
+var arr1: [Int] = []
+var arr2: [Int] = []
+for _ in 1...input11 {
+    let input12 = readLine()!.split(separator: " ").map{ Int(String($0))! }
+    arr.append(input12[0] + input12[1])
+    arr1.append(input12[0])
+    arr2.append(input12[1])
+}
+
+for i in 0..<arr.count {
+    let plusI = i + 1
+    print("Case #\(plusI): \(arr1[i]) + \(arr2[i]) = \(arr[i])")
+}
+
+//2438
+let input13 = Int(readLine()!)!
+for i in 1...input13 {
+    for _ in 1...i {
+        print("*", terminator: "")
+    }
+    print("")
+}
+
+//2439
+let input14 = Int(readLine()!)!
+for i in 1...input14 {
+    for _ in 1...i {
+        print("*", terminator: "")
+    }
+    print("")
+}
